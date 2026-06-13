@@ -61,7 +61,7 @@ export function WeatherMap() {
 	const center: [number, number] = [lat, lon];
 
 	return (
-		<Card className="relative h-100 w-full overflow-hidden rounded-3xl border-white/10 bg-white/5 backdrop-blur-md">
+		<Card className="relative h-100 w-full overflow-hidden rounded-3xl border-white/10 bg-white/5 backdrop-blur-md py-0">
 			<div className="absolute top-4 right-4 z-1000 flex flex-col gap-2">
 				<AnimatePresence mode="wait">
 					<motion.div
