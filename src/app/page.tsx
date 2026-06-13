@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 import { useEffect } from "react";
@@ -78,8 +79,15 @@ export default function WeatherPage() {
 				</div>
 			</div>
 
-			<div className="fixed right-6 bottom-6 text-xs font-medium tracking-widest text-white/20 uppercase">
-				NextOpenWeatherMap
+			<div className="fixed right-6 bottom-6 text-[10px] font-medium tracking-widest text-white/20 uppercase">
+				Next OpenWeather Map by{" "}
+				<Link
+					className="text-primary italic"
+					href="https://www.linkedin.com/in/fapethedev/"
+					target="_blank"
+				>
+					Fapethedev
+				</Link>
 			</div>
 		</main>
 	);
