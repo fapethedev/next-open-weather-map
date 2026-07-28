@@ -52,7 +52,7 @@
 		"@types/three": "^0.184.0",
 		"eslint": "^9.39.4",
 		"eslint-config-next": "16.2.9",
-		"postcss": "^8.5.15",
+		"postcss": "^8.5.18",
 		"prettier": "^3.8.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"tailwindcss": "^4.2.1",
